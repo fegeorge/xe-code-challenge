@@ -1,7 +1,5 @@
 package gr.xe.java.codechallenge.statistics.utils;
 
-import gr.xe.java.codechallenge.statistics.utils.Search;
-import gr.xe.java.codechallenge.statistics.utils.GenerateAdsService;
 import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
