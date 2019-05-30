@@ -1,4 +1,4 @@
-package gr.xe.java.codechallenge.statistics.ads.infrastructure;
+package gr.xe.java.codechallenge.statistics.ads.infrastructure.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

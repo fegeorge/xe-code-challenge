@@ -1,5 +1,6 @@
-package gr.xe.java.codechallenge.statistics.ads.infrastructure;
+package gr.xe.java.codechallenge.statistics.ads.infrastructure.repository;
 
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;

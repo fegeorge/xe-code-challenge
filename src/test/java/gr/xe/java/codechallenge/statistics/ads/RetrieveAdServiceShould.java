@@ -2,7 +2,7 @@ package gr.xe.java.codechallenge.statistics.ads;
 
 import gr.xe.java.codechallenge.statistics.ads.api.RetrieveAdController;
 import gr.xe.java.codechallenge.statistics.ads.domain.RetrieveAdService;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

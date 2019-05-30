@@ -1,6 +1,6 @@
-package gr.xe.java.codechallenge.statistics.Utils;
+package gr.xe.java.codechallenge.statistics.utils;
 
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 
 import java.util.Calendar;
 import java.util.Date;

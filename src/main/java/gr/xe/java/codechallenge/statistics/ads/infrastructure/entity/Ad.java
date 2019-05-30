@@ -1,4 +1,4 @@
-package gr.xe.java.codechallenge.statistics.ads.infrastructure;
+package gr.xe.java.codechallenge.statistics.ads.infrastructure.entity;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;

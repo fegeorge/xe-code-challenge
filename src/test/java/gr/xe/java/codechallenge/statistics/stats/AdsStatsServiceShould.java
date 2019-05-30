@@ -1,9 +1,9 @@
 package gr.xe.java.codechallenge.statistics.stats;
 
 import gr.xe.java.codechallenge.statistics.stats.domain.AdAllStatsService;
-import gr.xe.java.codechallenge.statistics.stats.infrastructure.AdAllStats;
-import gr.xe.java.codechallenge.statistics.stats.infrastructure.AdAllStatsRepository;
-import gr.xe.java.codechallenge.statistics.stats.infrastructure.SearchStatRepository;
+import gr.xe.java.codechallenge.statistics.stats.infrastructure.entity.AdAllStats;
+import gr.xe.java.codechallenge.statistics.stats.infrastructure.repository.AdAllStatsRepository;
+import gr.xe.java.codechallenge.statistics.stats.infrastructure.repository.SearchStatRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
