@@ -1,11 +1,11 @@
 package gr.xe.java.codechallenge.statistics.ads;
 
-import gr.xe.java.codechallenge.statistics.ads.domain.InvalidRequestException;
+import gr.xe.java.codechallenge.statistics.ads.domain.exception.InvalidRequestException;
 import gr.xe.java.codechallenge.statistics.ads.domain.SearchAdsService;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.AdsPagingRepository;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.SearchQuery;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.SearchQueryRepository;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.repository.AdsPagingRepository;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.SearchQuery;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.repository.SearchQueryRepository;
 import gr.xe.java.codechallenge.statistics.stats.domain.StatsService;
 import org.junit.Before;
 import org.junit.Test;

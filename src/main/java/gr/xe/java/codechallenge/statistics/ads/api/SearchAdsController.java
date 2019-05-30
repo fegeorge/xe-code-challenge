@@ -1,8 +1,8 @@
 package gr.xe.java.codechallenge.statistics.ads.api;
 
-import gr.xe.java.codechallenge.statistics.ads.domain.InvalidRequestException;
+import gr.xe.java.codechallenge.statistics.ads.domain.exception.InvalidRequestException;
 import gr.xe.java.codechallenge.statistics.ads.domain.SearchService;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpHeaders;

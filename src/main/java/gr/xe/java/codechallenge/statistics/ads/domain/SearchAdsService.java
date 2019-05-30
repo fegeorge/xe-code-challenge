@@ -1,9 +1,10 @@
 package gr.xe.java.codechallenge.statistics.ads.domain;
 
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.AdsPagingRepository;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.SearchQuery;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.SearchQueryRepository;
+import gr.xe.java.codechallenge.statistics.ads.domain.exception.InvalidRequestException;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.repository.AdsPagingRepository;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.SearchQuery;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.repository.SearchQueryRepository;
 import gr.xe.java.codechallenge.statistics.stats.domain.StatsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

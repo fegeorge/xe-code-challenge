@@ -1,8 +1,8 @@
-package gr.xe.java.codechallenge.statistics.data;
+package gr.xe.java.codechallenge.statistics.utils;
 
-import gr.xe.java.codechallenge.statistics.Utils.Search;
-import gr.xe.java.codechallenge.statistics.ads.domain.GenerateAdsService;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
+import gr.xe.java.codechallenge.statistics.utils.Search;
+import gr.xe.java.codechallenge.statistics.utils.GenerateAdsService;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Random;
 
 @Component
-public class AdsCreator {
+public class GenerateAds {
 
     @Autowired
     private GenerateAdsService generateAdsService;

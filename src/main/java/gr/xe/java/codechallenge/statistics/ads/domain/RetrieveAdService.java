@@ -1,7 +1,7 @@
 package gr.xe.java.codechallenge.statistics.ads.domain;
 
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.AdsRepository;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.repository.AdsRepository;
 import gr.xe.java.codechallenge.statistics.stats.domain.StatsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

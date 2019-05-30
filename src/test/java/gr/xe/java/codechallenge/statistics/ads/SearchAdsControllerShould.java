@@ -1,9 +1,9 @@
 package gr.xe.java.codechallenge.statistics.ads;
 
 import gr.xe.java.codechallenge.statistics.ads.api.SearchAdsController;
-import gr.xe.java.codechallenge.statistics.ads.domain.InvalidRequestException;
+import gr.xe.java.codechallenge.statistics.ads.domain.exception.InvalidRequestException;
 import gr.xe.java.codechallenge.statistics.ads.domain.SearchService;
-import gr.xe.java.codechallenge.statistics.ads.infrastructure.Ad;
+import gr.xe.java.codechallenge.statistics.ads.infrastructure.entity.Ad;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

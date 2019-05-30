@@ -1,4 +1,4 @@
-package gr.xe.java.codechallenge.statistics.ads.domain;
+package gr.xe.java.codechallenge.statistics.ads.domain.exception;
 
 public class InvalidRequestException extends RuntimeException {
 
